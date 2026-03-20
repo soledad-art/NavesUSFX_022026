@@ -29,6 +29,19 @@ void AEnemigo::BeginPlay()
 {
 	Super::BeginPlay();
 
+	CargarRuta();
+}
+
+// Called every frame
+void AEnemigo::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	Mover(DeltaTime);
+}
+
+void AEnemigo::CargarRuta()
+{
     PosicionInicial = GetActorLocation();
     PuntosRuta.Empty();
 
@@ -47,15 +60,13 @@ void AEnemigo::BeginPlay()
     IndicePuntoRutaActual = 1;
 }
 
-// Called every frame
-void AEnemigo::Tick(float DeltaTime)
+void AEnemigo::Mover(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
-
+    
     if (!bMovimientoAutonomo)
     {
         FVector PosicionActual = GetActorLocation();
-        
+
         float Distancia = FVector::Dist(PosicionActual, PosicionDestinoGameMode);
 
         if (Distancia <= Tolerancia)
@@ -96,5 +107,6 @@ void AEnemigo::Tick(float DeltaTime)
             SetActorLocation(NuevaUbicacion);
         }
     }
+    
 }
 

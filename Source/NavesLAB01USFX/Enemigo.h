@@ -24,7 +24,7 @@ public:
 	FVector WorldLimitesMin = FVector(-1000, -1000, 0);
 	FVector WorldLimitesMax = FVector(1000, 1000, 0);
 
-private:
+public:
 	TArray<FVector> PuntosRuta;
 	
 	int32 IndicePuntoRutaActual = 0;
@@ -46,5 +46,9 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	
+	void Mover(float DeltaTime);
+
+	virtual void CargarRuta();
 
 };
