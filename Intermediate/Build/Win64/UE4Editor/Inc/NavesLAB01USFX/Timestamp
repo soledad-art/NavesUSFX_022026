@@ -1,7 +1,17 @@
-D:\src_SIS457\NavesLAB01USFX\Source\NavesLAB01USFX\Enemigo.h
-D:\src_SIS457\NavesLAB01USFX\Source\NavesLAB01USFX\EnemigoAereo.h
-D:\src_SIS457\NavesLAB01USFX\Source\NavesLAB01USFX\EnemigoTerrestre.h
-D:\src_SIS457\NavesLAB01USFX\Source\NavesLAB01USFX\NavesLAB01USFXProjectile.h
-D:\src_SIS457\NavesLAB01USFX\Source\NavesLAB01USFX\NavesLAB01USFXGameMode.h
-D:\src_SIS457\NavesLAB01USFX\Source\NavesLAB01USFX\NavesLAB01USFXPawn.h
-D:\src_SIS457\NavesLAB01USFX\Source\NavesLAB01USFX\EnemigoAcuatico.h
+D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Source\NavesLAB01USFX\AEDron.h
+D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Source\NavesLAB01USFX\EALancha.h
+D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Source\NavesLAB01USFX\Enemigo.h
+D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Source\NavesLAB01USFX\EnemigoAcuatico.h
+D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Source\NavesLAB01USFX\EABarco.h
+D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Source\NavesLAB01USFX\ETCamion.h
+D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Source\NavesLAB01USFX\ETSoldado.h
+D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Source\NavesLAB01USFX\ETTanque.h
+D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Source\NavesLAB01USFX\NavesLAB01USFXGameMode.h
+D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Source\NavesLAB01USFX\NavesLAB01USFXPawn.h
+D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Source\NavesLAB01USFX\NavesLAB01USFXProjectile.h
+D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Source\NavesLAB01USFX\EnemigoTerrestre.h
+D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Source\NavesLAB01USFX\EAAvion.h
+D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Source\NavesLAB01USFX\EAMotoAcuatica.h
+D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Source\NavesLAB01USFX\EAHelicoptero.h
+D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Source\NavesLAB01USFX\EnemigoAereo.h
+D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Source\NavesLAB01USFX\ETBlindado.h

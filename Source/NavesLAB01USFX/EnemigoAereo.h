@@ -6,13 +6,12 @@
 #include "Enemigo.h"
 #include "EnemigoAereo.generated.h"
 
-/**
- * 
- */
+
 UCLASS()
 class NAVESLAB01USFX_API AEnemigoAereo : public AEnemigo
 {
-	GENERATED_BODY()
+	GENERATED_BODY() 
+
 protected:
 	virtual void BeginPlay() override;
 
@@ -21,5 +20,9 @@ public:
 
 	//void Mover(float DeltaTime);
 
+	void Mover(float DeltaTime);
+	
 	void CargarRuta() override;
+	
+
 };

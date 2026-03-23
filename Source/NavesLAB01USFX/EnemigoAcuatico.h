@@ -14,4 +14,11 @@ class NAVESLAB01USFX_API AEnemigoAcuatico : public AEnemigo
 {
 	GENERATED_BODY()
 	
+protected:
+    virtual void BeginPlay() override;
+
+public:
+    virtual void Tick(float DeltaTime) override;
+
+    void Mover(float DeltaTime);
 };

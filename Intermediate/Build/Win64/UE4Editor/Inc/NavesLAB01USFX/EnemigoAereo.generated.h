@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define NAVESLAB01USFX_EnemigoAereo_generated_h
 
-#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_SPARSE_DATA
-#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_RPC_WRAPPERS
-#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_INCLASS_NO_PURE_DECLS \
+#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_SPARSE_DATA
+#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_RPC_WRAPPERS
+#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemigoAereo(); \
 	friend struct Z_Construct_UClass_AEnemigoAereo_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemigoAereo)
 
 
-#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_INCLASS \
+#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesAEnemigoAereo(); \
 	friend struct Z_Construct_UClass_AEnemigoAereo_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemigoAereo)
 
 
-#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_STANDARD_CONSTRUCTORS \
+#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AEnemigoAereo(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemigoAereo) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_ENHANCED_CONSTRUCTORS \
+#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AEnemigoAereo() { }; \
 private: \
@@ -60,28 +60,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEnemigoAereo)
 
 
-#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_PRIVATE_PROPERTY_OFFSET
-#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_12_PROLOG
-#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_GENERATED_BODY_LEGACY \
+#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_PRIVATE_PROPERTY_OFFSET
+#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_10_PROLOG
+#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_PRIVATE_PROPERTY_OFFSET \
-	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_SPARSE_DATA \
-	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_RPC_WRAPPERS \
-	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_INCLASS \
-	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_STANDARD_CONSTRUCTORS \
+	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_PRIVATE_PROPERTY_OFFSET \
+	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_SPARSE_DATA \
+	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_RPC_WRAPPERS \
+	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_INCLASS \
+	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_GENERATED_BODY \
+#define NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_PRIVATE_PROPERTY_OFFSET \
-	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_SPARSE_DATA \
-	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_INCLASS_NO_PURE_DECLS \
-	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_15_ENHANCED_CONSTRUCTORS \
+	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_PRIVATE_PROPERTY_OFFSET \
+	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_SPARSE_DATA \
+	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_INCLASS_NO_PURE_DECLS \
+	NavesLAB01USFX_Source_NavesLAB01USFX_EnemigoAereo_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -13,5 +13,12 @@ UCLASS()
 class NAVESLAB01USFX_API AEnemigoTerrestre : public AEnemigo
 {
 	GENERATED_BODY()
-	
+
+protected:
+    virtual void BeginPlay() override;
+
+public:
+    virtual void Tick(float DeltaTime) override;
+
+    void Mover(float DeltaTime);
 };

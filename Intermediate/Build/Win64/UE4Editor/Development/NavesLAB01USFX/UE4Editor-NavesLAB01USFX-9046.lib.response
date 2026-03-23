@@ -1,0 +1,37 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-NavesLAB01USFX-9046.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\NavesLAB01USFXEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\AEDron.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\EAAvion.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\EABarco.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\EAHelicoptero.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\EALancha.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\Enemigo.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\EnemigoAcuatico.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\EnemigoAereo.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\EnemigoTerrestre.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\NavesLAB01USFX.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\NavesLAB01USFXGameMode.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\NavesLAB01USFXPawn.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\NavesLAB01USFXProjectile.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\AEDron.gen.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\EAAvion.gen.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\EABarco.gen.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\EAHelicoptero.gen.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\EALancha.gen.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\Enemigo.gen.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\EnemigoAcuatico.gen.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\EnemigoAereo.gen.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\EnemigoTerrestre.gen.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\NavesLAB01USFX.init.gen.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\NavesLAB01USFXGameMode.gen.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\NavesLAB01USFXPawn.gen.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\NavesLAB01USFXProjectile.gen.cpp.obj"
+"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\Default.rc2.res"
+/OUT:"D:\Users\User\Documents\Unreal Projects\NavesLAB01USFX\Intermediate\Build\Win64\UE4Editor\Development\NavesLAB01USFX\UE4Editor-NavesLAB01USFX-9046.lib"

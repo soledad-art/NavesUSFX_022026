@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NavesLAB01USFX.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F5D3B015-0BCC-44DE-98C5-F9DB8282C322}</UniqueIdentifier>
+      <UniqueIdentifier>{4442EA0A-02E1-4C29-8E7F-3C1B969BFA72}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NavesLAB01USFX.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{ABDB8078-3CA9-402D-B68E-062C69F017AE}</UniqueIdentifier>
+      <UniqueIdentifier>{A5D5919E-6A39-4A62-B3C8-C2B555ED957F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,8 +32,44 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NavesLAB01USFX">
-      <UniqueIdentifier>{A747E0BA-4786-48C9-BD16-04E9DDFDF721}</UniqueIdentifier>
+      <UniqueIdentifier>{14E256AC-B4B0-4D83-8C86-4EF2E646DD0D}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\AEDron.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\AEDron.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\EAAvion.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\EAAvion.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\EABarco.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\EABarco.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\EAHelicoptero.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\EAHelicoptero.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\EALancha.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\EALancha.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\EAMotoAcuatica.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\EAMotoAcuatica.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\NavesLAB01USFX\Enemigo.cpp">
       <Filter>Source\NavesLAB01USFX</Filter>
     </ClCompile>
@@ -56,6 +92,30 @@
       <Filter>Source\NavesLAB01USFX</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\NavesLAB01USFX\EnemigoTerrestre.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\ETBlindado.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\ETBlindado.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\ETCamion.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\ETCamion.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\ETSoldado.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\ETSoldado.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\ETTanque.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\ETTanque.h">
       <Filter>Source\NavesLAB01USFX</Filter>
     </ClInclude>
     <None Include="..\..\Source\NavesLAB01USFX\NavesLAB01USFX.Build.cs">

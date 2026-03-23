@@ -14,10 +14,11 @@ void AEnemigoAereo::BeginPlay()
 void AEnemigoAereo::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+    Mover(DeltaTime);
 
 }
 
-/*void AEnemigoAereo::Mover(float DeltaTime)
+void AEnemigoAereo::Mover(float DeltaTime)
 {
 
     if (!bMovimientoAutonomo)
@@ -66,7 +67,7 @@ void AEnemigoAereo::Tick(float DeltaTime)
     }
 
 }
-*/
+
 
 void AEnemigoAereo::CargarRuta()
 {
@@ -80,21 +81,21 @@ void AEnemigoAereo::CargarRuta()
     const float YFinal = WorldLimitesMin.Y;      // Parte inferior de la pantalla (o media inferior)
     const int32 NumTramos = 10;                     // Cantidad de “dientes” del zigzag
 
-	FVector PuntoActual1(YInicio, XIzquierda,  200.0f);
+	FVector PuntoActual1( XIzquierda,  YInicio, 200.0f);
     PuntosRuta.Add(PuntoActual1);
-    FVector PuntoActual2(YInicio, XDerecha, 200.0f);
+    FVector PuntoActual2(XDerecha, YInicio,  200.0f);
 	PuntosRuta.Add(PuntoActual2);
-	FVector PuntoActual3(YInicio - 200.0f, XIzquierda, 200.0f);
+	FVector PuntoActual3(XIzquierda, YInicio - 200.0f,  200.0f);
 	PuntosRuta.Add(PuntoActual3);
-	FVector PuntoActual4(YInicio - 400.0f, XDerecha, 200.0f);
+	FVector PuntoActual4(XDerecha, YInicio - 400.0f,  200.0f);
 	PuntosRuta.Add(PuntoActual4);
-	FVector PuntoActual5(YInicio - 600.0f, XIzquierda, 200.0f);
+	FVector PuntoActual5(XIzquierda, YInicio - 600.0f,  200.0f);
 	PuntosRuta.Add(PuntoActual5);
-	FVector PuntoActual6(YInicio - 800.0f, XDerecha, 200.0f);
+	FVector PuntoActual6(XDerecha, YInicio - 800.0f,  200.0f);
 	PuntosRuta.Add(PuntoActual6);
-	FVector PuntoActual7(YInicio - 1000.0f, XIzquierda,  200.0f);
+	FVector PuntoActual7(XIzquierda, YInicio - 1000.0f,   200.0f);
 	PuntosRuta.Add(PuntoActual7);
-	FVector PuntoActual8((YInicio - YFinal) / 2, YInicio - 1200.0f, PosicionInicial.Z);
+	FVector PuntoActual8(YInicio - 1200.0f, (YInicio - YFinal) / 2,  PosicionInicial.Z);
 	PuntosRuta.Add(PuntoActual8);
 
     /*
